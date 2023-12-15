@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Harmony Cafe Services</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Suleyman kilinc" />
+
+<!--icons-->
+<link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-192x192.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-512x512.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+
+		/*loading*/
+		
+		#loading {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index: 9999;
+		}
+		
+		#loading img {
+			width: 200px;
+			height: 200px;
+		}
+		
+		/*End of loading*/
+		
+			</style>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script>
+		//loading
+		
+		window.addEventListener('load', function () {
+			let loadingScreen = document.getElementById('loading');
+		
+			this.setTimeout(function () {
+				loadingScreen.style.display = 'none';
+			}, 3000);
+		})
+		
+		//end of loading
+		
+		</script>
+
+	
+
+
+	</head>
+	<body>
+		
+	 <!--loading-->
+
+	 <div id="loading">
+        <img src="images/loader.gif" alt="Please wait...">
+    </div>
+
+    <!--end loading-->
+	
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<!-- <div class="top-menu"> -->
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center logo-wrap">
+							<div id="fh5co-logo"><a href="index.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ;">Harmony<span>.</span></a></div>
+						</div>
+						<div class="col-xs-12 text-center menu-1 menu-wrap">
+							<ul style="margin-top: 2rem;">	
+								<li><a href="index.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Home</a></li>
+								<li><a href="menu.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding: 1rem 2rem; font-size: 15px ; font-weight: 900;">Menu</a></li>
+								<li class="has-dropdown">
+									<a href="busines_plan.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem; font-size: 15px ; font-weight: 900;">Busines Plan</a>
+								
+								</li>
+								<li><a href="reservation.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Reservation</a></li>
+								
+								<li><a href="contact.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			<!-- </div> -->
+		</nav>
+
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1 style="color: #ffa300; font-weight: 900;"> <em>Contact with us</em></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	
+	<div id="fh5co-contact" class="fh5co-section animate-box">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="color: #ffa300; font-size: 50px; font-weight: 900; text-align: center;">Don't be shy, let's chat.</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6 col-md-push-6 col-sm-6 col-sm-push-6">
+					<form action="#" id="form-wrap">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="name" style="color: #ffa300; font-size:30px; font-weight: 900; text-align: center;">Your Name</label>
+								<input type="text" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="email" style="color: #ffa300; font-size:30px; font-weight: 900; text-align: center;">Your Email</label>
+								<input type="text" class="form-control" id="email">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="message" style="color: #ffa300; font-size:30px; font-weight: 900; text-align: center;">Your Message</label>
+								<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<input type="submit" class="btn btn-primary btn-outline btn-lg" value="Send" style="border: none;border-radius: 30px;background-color: #ffa432;color:white; font-size: 50px; font-weight: 900; text-align: center;">
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+		<div class="container">
+
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; This page was designed and coded by <a style="font-size: 20px;" target="_blank" href="https://www.instagram.com/klncsuleymann/">Suleyman KILINC</a> for Projectk</small>
+						<small class="block" style="color: white; font-size: 20px; font-weight: 900;">&copy; 2023 All Rights Reserved</small> 
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://www.instagram.com/klncsuleymann/"><i style="font-size: 30px;" class="icon-instagram"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

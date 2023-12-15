@@ -1,0 +1,426 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Harmony Cafe Services</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="suleyman kilinc" />
+
+	
+<!--icons-->
+<link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-192x192.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-512x512.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	
+	<link rel="stylesheet" href="css/flexslider.css">
+	<style>
+
+/*loading*/
+
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+}
+
+#loading img {
+    width: 200px;
+    height: 200px;
+}
+
+/*End of loading*/
+
+	</style>
+
+<script>
+//loading
+
+window.addEventListener('load', function () {
+    let loadingScreen = document.getElementById('loading');
+
+    this.setTimeout(function () {
+        loadingScreen.style.display = 'none';
+    }, 3000);
+})
+
+//end of loading
+
+</script>
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		
+    <!--loading-->
+
+    <div id="loading">
+        <img src="images/loader.gif" alt="Please wait...">
+    </div>
+
+    <!--end loading-->
+		
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<!-- <div class="top-menu"> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center logo-wrap">
+						<div id="fh5co-logo"><a href="index.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ;">Harmony<span>.</span></a></div>
+					</div>
+					<div class="col-xs-12 text-center menu-1 menu-wrap">
+						<ul style="margin-top: 2rem;">	
+							<li><a href="index.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Home</a></li>
+							<li><a href="menu.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding: 1rem 2rem; font-size: 15px ; font-weight: 900;">Menu</a></li>
+							<li class="has-dropdown">
+								<a href="busines_plan.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem; font-size: 15px ; font-weight: 900;">Busines Plan</a>
+							
+							</li>
+							<li><a href="reservation.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Reservation</a></li>
+							
+							<li><a href="contact.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		<!-- </div> -->
+	</nav>
+
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1 style="color: #ffa432; ">The Best Caf <em>&amp; in</em> Istanbul</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
+					<img src="images/hero_1.jpeg" style="border-radius: 30px;" alt="Harmony Cafe Service">
+				</div>
+				<div class="col-md-5 col-md-push-1 animate-box">
+					<div class="section-heading">
+						<h2>The Cafe</h2>
+						<p style="font-size: 22px; color: #ffa432; font-weight: 900;">
+							Harmony Cafe was established in 2023. We cater to every aspect of the café
+experience, rapidly adapting to the ever-evolving cafe industry. At Harmony
+Cafe, we specialize in crafting a warm and inviting ambiance, offering a range of
+freshly brewed coffees, delectable pastries, and comfortable seating
+arrangements. Our cafe welcomes patrons seeking a perfect place to unwind
+and socialize.
+						</p>
+						<p style="font-size: 22px; color: #ffa432; font-weight: 900;">Our cafe's clientele comprises individuals who value a relaxing atmosphere while
+							enjoying quality beverages and delectable treats. We personally curate our
+							menu and take delight in creating a space where our patrons feel at home.
+							Customers prefer Harmony Cafe for our commitment to providing high-quality
+							products and an ambiance that matches their expectations.
+							We strive to design and deliver an experience that aligns with your vision of the
+							perfect cafe. From the intricacies of our furniture to the comfort of our seating,
+							every detail is crafted meticulously, aiming for perfection in every aspect of our
+							service, whether it's the quality of our ingredients or the finesse in our
+							preparation.</p>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-featured-menu" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 fh5co-heading animate-box">
+					<h2 style="color: #ffa300; font-size: 50px; font-weight: 900; text-align: center;">Harmony's Special</h2>
+				</div>
+				
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
+					<div class="fh5co-item">
+						<img src="images/chickenwings.jpg" style="border-radius: 30px;" class="img-responsive" alt="Harmony Cafe Services">
+						<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;">Chicken Wings</h3>
+						<span class="fh5co-price">$10<sup>.50</sup></span>
+						<p style="color: #ffa432; font-size: 20p; font-weight: 900;">
+							Harmony Cafe's delicious Chicken Wings consist of crispy yet tender chicken wings, marinated with special spices and perfectly fried to deliver an exquisite taste. An ideal side dish or a delightful snack option that guarantees a burst of flavors.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
+					<div class="fh5co-item margin_top">
+						<img src="images/breakfastplatter.jpg" style="border-radius: 30px;" class="img-responsive" alt="Harmony Cafe Services">
+						<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;">Breakfast Platter</h3>
+						<span class="fh5co-price">$5<sup>.00</sup></span>
+						<p style="color: #ffa432; font-size: 20p; font-weight: 900;">
+							Harmony Cafe's breakfast platter offers a rich and satisfying breakfast experience. This special dish includes fresh fruits, crispy bagels, fluffy omelet, assorted cheeses, and a variety of jams, ensuring an energetic start to your day. A perfect choice for breakfast enthusiasts!
+						</p>
+					</div>
+				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
+					<div class="fh5co-item">
+						<img src="images/chickensandwich.jpg" style="border-radius: 30px;" class="img-responsive" alt="Harmony Cafe Services">
+						<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;">Chicken Sandwich</h3>
+						<span class="fh5co-price">$3<sup>.99</sup></span>
+						<p style="color: #ffa432; font-size: 20p; font-weight: 900;">At Harmony Cafe, the chicken sandwich is a flavorful delight. Featuring tender, seasoned chicken breast, fresh lettuce, juicy tomatoes, and zesty mayonnaise, all nestled between soft, toasted bread, it's a savory treat that satisfies with every bite. A delectable choice for those craving a delightful and filling sandwich.</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
+					<div class="fh5co-item margin_top">
+						<img src="images/friedpotatoes.jpg" style="border-radius: 30px;" class="img-responsive" alt="Harmony Cafe Services">
+						<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;">Fried Potato</h3>
+						<span class="fh5co-price">$7<sup>.50</sup></span>
+						<p style="color: #ffa432; font-size: 20p; font-weight: 900;">At Harmony Cafe, our fried potatoes are a crispy and flavorful delight. These golden-brown, perfectly seasoned potato wedges are fried to perfection, offering a crispy exterior and a soft, fluffy interior. A delightful side dish that perfectly complements any meal and satisfies your craving for savory goodness</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<div id="fh5co-slider" class="fh5co-section animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 animate-box">
+					<div class="fh5co-heading">
+						<h2 style="color: #ffa200;font-size: 30px; font-weight: 900;">Our Best <em>&amp;</em> Unique Coffees</h2>
+						<p style="color: #ffa432; font-size: 20p; font-weight: 900;">
+							Here are our most unique and best coffees, awaiting you with their exceptional flavors and carefully selected varieties
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-md-push-1 animate-box">
+					<aside id="fh5co-slider-wrwap">
+					<div class="flexslider">
+						<ul class="slides">
+					   	<li style="background-image: url(images/espresso.jpg); border-radius: 50px;">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+						   				<div class="slider-text-inner">
+						   					<div class="desc">
+
+													<h2 style="color: #ffa300; font-size: 30px; font-weight: 900;">Espresso</h2>
+													<p style="color: #ffa432; font-size: 20p; font-weight: 900;">Harmony Cafe's espresso varieties captivate coffee enthusiasts with their intense aroma and flavor</p>
+													
+						   					</div>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>
+					   	<li style="background-image: url(images/macchiato.jpg); border-radius: 50px;">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+						   				<div class="slider-text-inner">
+						   					<div class="desc">
+													<h2 style="color: #ffa300; font-size: 30px; font-weight: 900;">Macchiato</h2>
+													<p style="color: #ffa432; font-size: 20p; font-weight: 900;">Macchiato is a balanced and flavorful coffee option at Harmony Cafe where intense espresso meets a touch of frothy milk.</p>
+			
+						   					</div>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>
+					   	<li style="background-image: url(images/freshtea.jpg); border-radius: 50px;">
+					   		<div class="overlay-gradient"></div>
+					   		<div class="container-fluid">
+					   			<div class="row">
+						   			<div class="col-md-12 col-md-offset-0 col-md-pull-10 slider-text slider-text-bg">
+						   				<div class="slider-text-inner">
+						   					<div class="desc">
+													<h2 style="color: #ffa300; font-size: 30px; font-weight: 900;">Fresh-tea</h2>
+													<p style="color: #ffa432; font-size: 20p; font-weight: 900;">Fresh teas offered at Harmony Cafe are refreshing and delicious beverages made by carefully brewing natural and fresh leaves. With various aroma and flavor options, each sip of our fresh teas provides an enjoyable experience.</p>
+													
+						   					</div>
+						   				</div>
+						   			</div>
+						   		</div>
+					   		</div>
+					   	</li>		   	
+					  	</ul>
+				  	</div>
+				</aside>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-blog" class="fh5co-section">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<h2 style="color: #ffa300; font-size: 50px; font-weight: 900; text-align: center;">Events</h2>
+					<p style="color: #ffa432; font-size: 20p; font-weight: 900;">Unforgettable Nights at Harmony Cafe! </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/livedc.jpg); border-radius: 30px;"></a>
+						<div class="blog-text" style="border-radius: 30px;">
+							<span class="posted_on">Dec. 14th 2023</span>
+							<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;"><a> Weekend Live DJ Performance</a></h3>
+							<p style="color: #ffa432; font-size: 20p; font-weight: 900;">Join us on Saturday night for a fun-filled evening of music and dancing! Our experienced DJs will create an energetic atmosphere by playing your favorite tracks.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>5</li>
+								<li><i class="icon-eye2"></i>2</li>
+								
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/surprise.webp); border-radius: 30px;"></a>
+						<div class="blog-text" style="border-radius: 30px;">
+							<span class="posted_on">Dec. 14th 2023</span>
+							<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;"><a href="#"> Surprise Gifts and Discounts</a></h3>
+							<p style="color: #ffa432; font-size: 20p; font-weight: 900;">Join us for an evening of delightful coffee experiences where attendees can enjoy exclusive surprise gifts and avail special discounts on selected coffee blends and merchandise.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>1</li>
+								<li><i class="icon-eye2"></i>2</li>
+								
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/turkiahcoffee.jpg); border-radius: 30px;"></a>
+						<div class="blog-text" style="border-radius: 30px;">
+							<span class="posted_on">Dec. 14th 2023</span>
+							<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;"><a href="#"> Enjoyable Evening</a></h3>
+							<p style="color: #ffa432; font-size: 20p; font-weight: 900;">On Friday night, an exclusive event for coffee enthusiasts! Discover your favorite coffee flavors during our Cafe Mac Night and experience delightful coffee presentations by our expert baristas.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>2</li>
+								<li><i class="icon-eye2"></i>2</li>
+							
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-featured-testimony" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 fh5co-heading animate-box">
+					<h2 style="color: #ffa300; font-size: 50px; font-weight: 900; text-align: center;">We are waiting for you..</h2>
+					<div class="row">
+					</div>
+				</div>
+
+				<div class="col-md-5 animate-box img-to-responsive animate-box" data-animate-effect="fadeInLeft">
+						<img src="images/harmonylogo.jpg" alt="HarmonyCafe" style="border-radius: 30px;">
+				</div>
+				<div class="col-md-7 animate-box" data-animate-effect="fadeInRight">
+					<blockquote>
+						<p> &ldquo; Savor Harmony, Taste Happiness  &rdquo;</p>
+						<p class="author"><cite>&mdash; Harmony Cafe Services</cite></p>
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2 style="color: #ffa300; font-size: 30px; font-weight: 900;">Join Us!</h2>
+					<p style="color: #ffa300; font-size: 30px; font-weight: 900;">Reserve Your Table: Experience a blend of exceptional coffee and culinary delights. We look forward to creating unforgettable moments with you!</p>
+					<p><a style="background-color: #ffa432; border: none; border-radius: 20px; color: aliceblue; font-size: 30px; font-weight: 900;" href="contact.html" class="btn btn-primary btn-outline">Contact</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+		<div class="container">
+
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; This page was designed and coded by <a style="font-size: 20px;" target="_blank" href="https://www.instagram.com/klncsuleymann/">Suleyman KILINC</a> for Project</small>
+						<small class="block" style="color: white; font-size: 20px; font-weight: 900;">&copy; 2023 All Rights Reserved</small> 
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://www.instagram.com/klncsuleymann/"><i style="font-size: 30px;" class="icon-instagram"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

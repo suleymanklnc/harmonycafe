@@ -1,0 +1,695 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Harmony Cafe Services</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<meta name="author" content="suleyman kilinc" />
+
+	<!--icons-->
+<link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-192x192.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/android-chrome-512x512.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+
+		/*loading*/
+		
+		#loading {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index: 9999;
+		}
+		
+		#loading img {
+			width: 200px;
+			height: 200px;
+		}
+		
+		/*End of loading*/
+		
+			</style>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+	<script>
+		//loading
+		
+		window.addEventListener('load', function () {
+			let loadingScreen = document.getElementById('loading');
+		
+			this.setTimeout(function () {
+				loadingScreen.style.display = 'none';
+			}, 3000);
+		})
+		
+		//end of loading
+		
+		</script>
+
+	</head>
+	<body>
+		
+	<!--loading-->
+
+	<div id="loading">
+		<img src="images/loader.gif" alt="Please wait...">
+	</div>
+
+	<!--end loading-->
+	
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<!-- <div class="top-menu"> -->
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center logo-wrap">
+							<div id="fh5co-logo"><a href="index.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ;">Harmony<span>.</span></a></div>
+						</div>
+						<div class="col-xs-12 text-center menu-1 menu-wrap">
+							<ul style="margin-top: 2rem;">	
+								<li><a href="index.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Home</a></li>
+								<li><a href="menu.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding: 1rem 2rem; font-size: 15px ; font-weight: 900;">Menu</a></li>
+								<li class="has-dropdown">
+									<a href="busines_plan.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem; font-size: 15px ; font-weight: 900;">Busines Plan</a>
+								
+								</li>
+								<li><a href="reservation.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Reservation</a></li>
+								
+								<li><a href="contact.html" style="color: #ffa200;background-color:  #0b0e13; border-radius: 20px; padding:1rem 2rem ; font-size: 15px ; font-weight: 900;">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			<!-- </div> -->
+		</nav>
+
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1 style="color: #ffa300; font-weight: 900;">Busines Plan</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
+					<img src="images/hero_1.jpeg" alt="Harmony Cafe Services">
+				</div>
+				<div class="col-md-5 col-md-push-1 animate-box">
+					<div class="section-heading">
+						<h2>Harmony Cafe Services</h2>
+						<p style="font-size: 22px; color: #ffa432; font-weight: 900;">
+							Harmony Cafe was established in 2017. We cater to every aspect of the café
+experience, rapidly adapting to the ever-evolving cafe industry. At Harmony
+Cafe, we specialize in crafting a warm and inviting ambiance, offering a range of
+freshly brewed coffees, delectable pastries, and comfortable seating
+arrangements. Our cafe welcomes patrons seeking a perfect place to unwind
+and socialize.
+						</p>
+						<p style="font-size: 22px; color: #ffa432; font-weight: 900;">Our cafe's clientele comprises individuals who value a relaxing atmosphere while
+							enjoying quality beverages and delectable treats. We personally curate our
+							menu and take delight in creating a space where our patrons feel at home.
+							Customers prefer Harmony Cafe for our commitment to providing high-quality
+							products and an ambiance that matches their expectations.
+							We strive to design and deliver an experience that aligns with your vision of the
+							perfect cafe. From the intricacies of our furniture to the comfort of our seating,
+							every detail is crafted meticulously, aiming for perfection in every aspect of our
+							service, whether it's the quality of our ingredients or the finesse in our
+							preparation.</p>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-timeline">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline animate-box">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3 style="color: #ffa300; font-size: 30px; font-weight: 900;">Busines Plan</h3></div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Summary</h3>
+								
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Harmony Cafe aims to provide customers with an enjoyable cafe experience by
+offering delicious snacks and special beverages in a cozy atmosphere.
+Established in 2023, Harmony Cafe provides guests with an opportunity to
+relax in a comfortable environment and indulge in quality flavors.
+Our cafe presents a thoughtfully curated menu featuring a variety of fresh
+coffee selections, delightful desserts, and light bites. Each item is prepared
+with special attention to offer our customers a unique taste experience. From
+energizing coffees to fresh fruit cocktails, we cater to diverse preferences.
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Our goal at Harmony Cafe is to enrich the cafe experience for our customers
+by providing quality products in a peaceful environment, creating memorable
+moments for them. Hosting our guests with a distinctive ambiance and
+fostering a welcoming atmosphere lies at the core of our vision.
+Furthermore, our objectives include increasing brand awareness, boosting
+revenue, expanding our customer base, and opening new locations. By
+focusing on online platforms, social media, and local events, we are refining
+our marketing strategies to promote and popularize cafe culture.
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #ffa300; font-size: 30px; font-weight: 900;">Company Ownership</h3>
+								</div>
+								<div class="timeline-body">
+									<p  style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Süleyman KILINC<br>
+H&R Manager<br>
+GSM:&nbsp;  +90 531 709 1563<br>
+Email:&nbsp;  suleymanklinc@hotmail.com <br><br>
+Dilara YETİM<br>
+CEO<br>
+GSM:&nbsp;  +90 534 582 50 82<br>
+Email:&nbsp; dilarayetim931@gmail.com <br><br>
+Adem Efe ALTUN<br>
+ CFO<br>
+GSM: &nbsp; +90 537 220 69 74<br>
+Email:&nbsp;  ademefe@gmail.com<br>
+<br>
+Yasin AYDOGAN<br>
+Manager<br>
+GSM: &nbsp; +90 505 077 4252<br>
+Email:&nbsp; yasinaydogan@gmail.com<br>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Mission</h3>
+								</div>
+								<div class="timeline-body">
+									<p  style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										As a Harmony Cafe, our mission is to provide a warm
+										environment and a delightful experience for our customers
+										with quality beverages and tasty snacks. We aim to create a
+										welcoming atmosphere, making each customer feel at home
+										while delivering exceptional service.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Harmony Cafe Services</h3></div>
+						</li>
+
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #ffa300; font-size: 30px; font-weight: 900;">Vision</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Our vision at Harmony Cafe is to be the heart of the
+community, fostering moments of connection and relaxation.
+We aspire to become the go-to destination where individuals
+can unwind, socialize, and create cherished memories over
+delightful refreshments in a cozy and inviting ambiance.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title" style="color: #ffa300; font-size: 30px; font-weight: 900;">Goals</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										At Harmony Cafe, our goals include enhancing customer
+satisfaction, expanding our menu offerings, and embracing
+eco-friendly practices. Additionally, we aim to contribute to
+the local community and continually innovate to provide our
+customers with a sustainable and enjoyable experience.
+
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Product Description</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Harmony Cafe offers a diverse range of carefully crafted
+										beverages and snacks, aiming to provide customers with a
+										delightful cafe experience. Our menu includes freshly
+										brewed coffees, teas infused with unique flavors,
+										delectable desserts, healthy snacks, and flavorful
+										sandwiches catering to various tastes. Additionally, we
+										provide seasonal specialty drinks and a variety of snacks
+										suitable for different times of the day. Our goal is to meet
+										our customers' expectations with quality products and a
+										warm atmosphere, offering them an enjoyable experience.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Market Analysis</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Our target market includes individuals seeking a premium
+										coffee experience coupled with a cozy ambience. These
+										individuals may comprise couples, women,youngs,
+										professionals, and tourists looking for a delightful
+										environment to relax, socialize, or work while enjoying highquality beverages and snacks
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Marketing Strategy</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Our café product is meticulously positioned: it offers a premium
+										experience catering to individuals who value quality, embrace
+										technological advancements, and are willing to invest in a
+										superior experience. Our marketing strategy revolves around
+										disseminating pertinent information to our specific target
+										audience. Our primary focus is ensuring that those who
+										appreciate a quality café experience, possess the budget, and
+										value our offerings are not only aware of our existence but also
+										know where to find us.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Swot Analysis</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										STRENGTHS<br>
+										• Unique Menu Diversity
+										and Flavors<br>
+										• Interior Design Tailored to
+										Local and Targeted
+										Customer Base<br>
+										• High-Quality and Freshly
+										Served Beverages and
+										Food items<br><br>
+										OPPORTUNITY<br>
+										•HIGH MARKET
+SHARE OF
+PRODUCTS<br>
+•DOMESTIC GOODS<br><br>
+WEAKNESS<br>
+•BEING A NEW
+COMPANY<br>
+•ACCORDING TO THE
+COMPETITORS
+NOT SUFFICIENTLY
+PROMOTIONAL ON
+SOCIAL PLATFORMS<br><br>
+THREATS<br>
+•THERE ARE MANY
+COMPETITIVE
+COMPANIES IN THE
+INDUSTRY<br><br>
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Advertising and Promotion</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Harmony Cafe will utilize various channels to connect with our target
+										audience. We will engage with platforms that resonate well with our
+										customers, including: <br>
+										--Instagram<br>
+										--Facebook<br>
+										--Twitter<br>
+		
+										
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Sales Strategy</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+									
+										Our café's sales strategy is centered around maintaining our brand
+										identity by catering to customers who appreciate high-quality
+										service and unique flavors. Particularly, we aim to enhance
+										customer satisfaction and loyalty by offering various discounts and
+										promotions.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">CHIEF EXECUTICE OFFICER (CEO)</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										<br>
+										Dilara yetim<br><br>
+										If we want to talk , a chief executive officer’s primary
+										responsibilities include making major corporate
+										decisions, managing overall operations, and acting as the
+										main point of between the board of directors.<br><br>
+										PROFILE:<br>
+										Female, Graduated from Business Administration
+										Business Faculty, Istanbul University<br>
+										Date of Birth: 28.06.2003<br><br>
+										Strengths:<br>
+										-Communication<br>
+										-Foreign language skills<br>
+										-Managing<br><br>
+										Weaknesses:<br>
+										-Being extra optimistic<br>
+										-Sentimental<br>
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">CHIEF FINANCIAL OFFICER (CFO)</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										<br>
+ Adem Efe Altun<br><br>
+Chief financial officer have to oversee the organization’s financial
+activities, including being responsible for the finance and
+accounting.<br><br>
+PROFILE:<br>
+Male, Graduated from Business Administration, Business Faculty,
+Istanbul University<br>
+Date of Birth: 03.07.2001<br><br>
+Strengths:<br>
+-Knowledge of finance<br>
+-Punctual<br>
+-Hardworking Person<br>
+-Managing<br><br>
+Weaknesses:<br>
+-Sentimental<br>
+-Squeamish<br>
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">MANAGER</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										<br>
+Yasin AYDOGAN<br><br>
+PROFILE<br>
+Male, Graduated from Business Administration, Business Faculty,
+Istanbul University<br>
+Date of Birth: 06.03.2001<br><br>
+Strengths:<br>
+-Perfectionist<br>
+-Good at Engineering<br>
+-Managing<br><br>
+Weaknesses:<br>
+-Pessimistic Problem<br>
+
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">HUMAN RESOURCES MANAGER (H&R)</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										<br>
+										Süleyman KILINC<br><br>
+										PROFILE<br>
+										Male, Graduated from Business Administration, Business Faculty,
+										Istanbul University<br>
+										Date of Birth: 12.02.2002<br>
+										Süleyman manages the human resources part of Harmony.
+										Süleyman does hiring and interviewing staff, administering pay,
+										benefits, and leave, and enforcing company policies and practices.<br><br>
+										Strengths:<br>
+										-Persuasion Skill<br>
+										-Managing<br>
+									</p>
+								</div>
+							</div>
+						</li>
+
+
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Hiring Policies</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										The personality traits of each individual differ. Personality traits of
+										individuals affect the productivity of the person positively or
+										negatively in business life. It is seen that working in a job suitable
+										for the individual's personality characteristics increases performance,
+										while working in a job that does not match the personality
+										characteristics of the individual, his performance decreases and he
+										changes jobs. For this reason, we take care to employ the right
+										person in the right job. We are looking for some requirements when
+										we are hiring.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+
+
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Hiring Policies</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										-Profile (Age, Degree Level…)
+We want to work with younger employees who have graduated from
+university.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Hiring Policies</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										Skills
+Employees have to some skills which can help them in business life.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+
+
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Hiring Policies</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										-Experiences
+Employees have to some experiences in the study life or business
+life.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-genius"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 style="color: #ffa300; font-size: 30px; font-weight: 900;" class="timeline-title">Hiring Policies</h3>
+								</div>
+								<div class="timeline-body">
+									<p style="color: white; font-size: 20px; font-weight: 500; text-align: justify;">
+										-Strengths and Weaknesses
+Personality traits of individuals affect the productivity of the person
+positively or negatively in business life.
+										
+									</p>
+								</div>
+							</div>
+						</li>
+
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	
+	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+		<div class="container">
+
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; This page was designed and coded by <a style="font-size: 20px; font-weight: 900;" target="_blank" href="https://www.instagram.com/klncsuleymann/">Suleyman KILINC</a> for Project</small>
+						<small class="block" style="color: white; font-size: 20px; font-weight: 900;">&copy; 2023 All Rights Reserved</small> 
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://www.instagram.com/klncsuleymann/"><i style="font-size: 30px;" class="icon-instagram"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+

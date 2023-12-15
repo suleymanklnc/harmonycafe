@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+body {
+    background-color: crimson;
+    animation: colorful 20s ease-in-out infinite;
+    transition: all 5s ease-in-out;
+}
+
+@keyframes colorful {
+    0% {
+        background-color: crimson;
+     
+    }
+
+    20% {
+        background-color: blueviolet;
+       
+    }
+
+    40% {
+        background-color: royalblue;
+       
+    }
+
+    60% {
+        background-color: brown;
+        
+    }
+
+    80% {
+        background-color: black;
+    
+    }
+}
+
+.card {
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid transparent;
+    box-shadow: 5px 5px 20px transparent;
+    border-radius: 30px;
+    margin: 7rem auto;
+    transition: all .5s ease-in-out;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: burlywood;
+
+}
