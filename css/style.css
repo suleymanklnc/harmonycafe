@@ -849,7 +849,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   content: " ";
   width: 2px;
-  background: #434343;
+  background: #ffa432;
   left: 50%;
   margin-left: 0px;
 }
@@ -936,7 +936,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-timeline .timeline > li > .timeline-badge {
-  color: #fff;
+  color: #ffa432;
   width: 44px;
   height: 44px;
   line-height: 50px;
@@ -946,13 +946,13 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #ea272d;
+  background-color: #0b0e13;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 @media screen and (max-width: 768px) {
   #fh5co-timeline .timeline > li > .timeline-badge {
@@ -1442,8 +1442,8 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 50px;
   height: 50px;
   display: table;
-  background: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background: #ffa432;;
+  color: #0b0e13;
   text-align: center;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
